@@ -1,13 +1,13 @@
 package credit_test
 
 import (
-    "credit"
+    "github.com/lozovoya/gohomework2_1/pkg/credit"
     "fmt"
 )
 
 func ExampleCalculate() {
-    fmt.Println(credit.Calculate(1_000_000_00, 36, 20/12/100))
+    fmt.Println(credit.Calculate(1_000_000_00, 36, 20))
     // Output:
-    // месячный платеж - 35700р, переплата - 285200р, общая выплата - 1285200р
+    // 35700 285200 1285200
 
 }
